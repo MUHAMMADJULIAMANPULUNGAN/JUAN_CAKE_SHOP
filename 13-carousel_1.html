@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Carousel dengan Bootstrap</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">	
+				  <div class="carousel slide" id="contoh-carousel" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#contoh-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#contoh-carousel" data-slide-to="1"></li>
+							<li data-target="#contoh-carousel" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="foto1.jpg" alt="Keterangan Gambar satu">
+								<div class="carousel-caption">
+									<h1>MySql</h1>
+									<h2>Dalam Website  Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Donec id elit non mi porta</h2>
+									<p><a class="btn btn-info btn-lg" href="#" role="button">Daftar</a> 
+									<a class="btn btn-danger btn-lg" href="#" role="button">Login</a></p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="foto2.jpg" alt="Keterangan Gambar dua">
+								<div class="carousel-caption">
+									<h1>PHP</h1>
+									<h2>Dalam Website  Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Donec id elit non mi porta</h2>
+									<p><a class="btn btn-primary btn-lg" href="#" role="button">Selengkapnya</a> 
+								</div>
+							</div>
+							<div class="item">
+								<img src="foto3.jpg" alt="Keterangan Gambar tiga">
+								<div class="carousel-caption">
+								<h1>Bootstrap</h1>
+									<h2>Dalam Website  Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Donec id elit non mi porta</h2>
+									<p><a class="btn btn-primary btn-lg" href="#" role="button">Masuk</a> 
+								</div>
+							</div>
+						</div>
+						<a class="left carousel-control" href="#contoh-carousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Prev</span>
+						</a>
+						<a class="right carousel-control" href="#contoh-carousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+			</div>
+		</div>
+	</div>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
